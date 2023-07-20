@@ -90,3 +90,8 @@ const database = [
         ]
     }
 ];
+
+export const getMoods = () => {
+// Return a copy of the database array by creating a new object - spreading all values of array    
+    return database.map(mood => ({...mood}))
+}
