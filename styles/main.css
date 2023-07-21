@@ -7,7 +7,7 @@
 
 body {
   background-color: #0070c0; /* Macho Man Blue */
-  background-size: cover;
+  background-image: linear-gradient(to right, #0070c0, #42b0ff);
 }
 
 .mood-card {
@@ -19,7 +19,8 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   background-color: #fa70b7; /* Macho Man Pink */
-  box-shadow: #333;
+  background-image: linear-gradient(to right, #fa70b7, #fe2997);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 1);
 }
 
 .mood-name {
