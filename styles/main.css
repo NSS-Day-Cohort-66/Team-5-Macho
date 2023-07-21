@@ -22,6 +22,11 @@ body {
   box-shadow: #333;
 }
 
+.mood-name {
+  color: coral;
+  font-family: cursive;
+}
+
 .macho-advice {
   display: flex;
 }
@@ -37,4 +42,11 @@ h3 {
   font-size: larger;
   color: #c78822; 
   background-color: blanchedalmond;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-family: fantasy;
+  scale: 150%;
 }
