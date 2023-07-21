@@ -25,6 +25,7 @@ body {
 .mood-name {
   color: coral;
   font-family: cursive;
+  text-shadow: 2px 2px 2px rebeccapurple;
 }
 
 .macho-advice {
@@ -40,7 +41,7 @@ img {
 
 h3 {
   font-size: larger;
-  color: #c78822; 
+  color: #c78822;
   background-color: blanchedalmond;
 }
 
@@ -49,4 +50,5 @@ h1 {
   text-align: center;
   font-family: fantasy;
   scale: 150%;
+  text-decoration: underline overline rebeccapurple;
 }
