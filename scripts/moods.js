@@ -2,9 +2,10 @@ import { getMoods } from "./database.js";
 
 export const compileMoods = () => {
   const moods = getMoods();
-  let htmlString = "";
+  let htmlString = ``;
   for (const mood of moods) {
     htmlString += `
+        <div class="mood-card">
         <h2 class="mood-name"> ${mood.name} </h2>
         <img src="${mood.imageUrl}" alt="${mood.text}">
         <div class="macho-advice">
@@ -12,7 +13,7 @@ export const compileMoods = () => {
     for (const quote of mood.quotes) {
       htmlString += `<div class="macho-quote">${quote}</div>`;
     }
-    htmlString += `</div>`;
+    htmlString += `</div></div>`;
     //make sure to come back and fill out html string to add the rest of the mood information
   }
   return htmlString;
